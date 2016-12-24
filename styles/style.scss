@@ -1,0 +1,78 @@
+//CSS reset
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+$font-stac: lato, sans-serif;
+$big-btn-bg-color: #fff;
+$bg-img: url("../img/plane_jumbotron.png");
+$btn-text-color: #00235F;
+$nav-bar-bg-color: #F9BA00;
+
+body {
+  background-image: $bg-img;
+  background-repeat: no-repeat;
+  background-position: center top;
+  z-index: -1;
+}
+//navbar
+.navbar-header {
+  background-color: white;
+}
+
+.navbar-default {
+  background: none;
+  border: none;
+
+}
+
+.navbar-brand {
+  padding:3px 15px;
+}
+.navbar-brand>img {
+  padding: 0 15px 0 15px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  background-color: #fff;
+}
+.nav>li>a>img {
+  padding: 0 10px 0 20px;
+}
+//main section
+.container .jumbotron {
+  background: none;
+  color: #fff;
+  margin-top: 25%;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  border-radius: 0;
+  background-color: $big-btn-bg-color;
+  color: $btn-text-color;
+}
+
+//reservation
+.nav-tabs {
+  border: none;
+  background-color: $nav-bar-bg-color;
+}
+
+.fa {
+  color: black;
+}
+.reservation {
+  background-color: white;
+}

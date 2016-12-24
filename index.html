@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Lufthansa</title>
+    <link href="vendors/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all"/>
+    <link rel="stylesheet" href="styles/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+    <!-- skrypty javascript -->
+    <!-- https://jquery.com/ -->
+    <script src="vendors/jquery/jquery-2.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <!-- http://getbootstrap.com/components/ -->
+    <script src="vendors/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"> <img src="img/logo_navbar.png"/> </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Połączenia</a></li>
+                <li><a href="#">Odprawa</a></li>
+                <li><a href="#">Rezerwacje</a></li>
+                <li><a href="#">Więcej</a></li>
+                <li><a href="#">Zajoguj się<img src="img/user_login_navbar.png"/> </a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<main>
+    <div class="container">
+        <div class="reservation">
+            <ul class="nav nav-tabs">
+                <li role="presentation" class="active"><a href="#"><i class="fa fa-plane" aria-hidden="true"></i></a></li>
+                <li role="presentation"><a href="#"><i class="fa fa-car" aria-hidden="true"></i></a></li>
+                <li role="presentation"><a href="#"><i class="fa fa-bed" aria-hidden="true"></i></a></li>
+            </ul>
+            <div class="row form-inline">
+                <fieldset>
+                    <div class="col-md-12">
+                    </div>
+                    <div class="form-group">
+                        <!-- Select Basic -->
+                        <div class="form-group">
+                            <div class="col-md-4">
+                                <select id="selectbasic" name="selectbasic" class="form-control">
+                                    <option value="1">Warszawa</option>
+                                    <option value="2">Sri Lanka</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" required="" class="form-control" placeholder="dd/mm/yyyy" id="time" name="time"
+                        <span class="input-group-btn"><button class="btn btn-default" type="button"><span class="glyphicon glyphicon-calendar"></span> </button></span>
+
+                    </div>
+            </div>
+            <div class="row form-inline">
+
+                    <div class="col-md-12">
+                    </div>
+                    <div class="form-group">
+                        <!-- Select Basic -->
+                        <div class="form-group">
+                            <div class="col-md-4">
+                                <select id="selectbasic" name="selectbasic" class="form-control">
+                                    <option value="1">Warszawa</option>
+                                    <option value="2">Sri Lanka</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" required="" class="form-control" placeholder="dd/mm/yyyy" id="time" name="time"
+                        <span class="input-group-btn"><button class="btn btn-default" type="button"><span class="glyphicon glyphicon-calendar"></span> </button></span>
+                    </div>
+            </div>
+            <div class="row form-inline">
+                <fieldset>
+                    <div class="col-md-12">
+                    </div>
+                    <div class="form-group">
+                        <!-- Select Basic -->
+                        <div class="form-group">
+                            <div class="col-md-4">
+                                <select id="selectbasic" name="selectbasic" class="form-control">
+                                    <option value="1">Warszawa</option>
+                                    <option value="2">Sri Lanka</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" required="" class="form-control" placeholder="dd/mm/yyyy" id="time" name="time"
+                        <span class="input-group-btn"><button class="btn btn-default" type="button"><span class="glyphicon glyphicon-calendar"></span> </button></span>
+                    </div>
+                <select id="selectbasic" name="selectbasic" class="form-control">
+                    <option value="1">w jedną stronę</option>
+                    <option value="2">w obie strony</option>
+                </select>
+                </fieldset>
+            </div>
+        </div>
+        <div class="jumbotron">
+            <h1>Ludzie którym ufasz</h1>
+            <p>Pozówl, by nasza załoga zatroszczyła się o Twój konfort</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Poznaj Nas</a></p>
+        </div>
+</main>
+</body>
+</html>
