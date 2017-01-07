@@ -22,7 +22,7 @@ $bg-img: url("../img/plane_jumbotron.png");
 $btn-text-color: #00235F;
 $nav-bar-bg-color: #F9BA00;
 
-body {
+.plane {
   background-image: $bg-img;
   background-repeat: no-repeat;
   background-position: center top;
@@ -64,15 +64,45 @@ body {
   color: $btn-text-color;
 }
 
-//reservation
-.nav-tabs {
-  border: none;
-  background-color: $nav-bar-bg-color;
+//promo
+.promo-cities {
+  margin-top: 1%;
 }
 
-.fa {
-  color: black;
+.promo-cities .container h2 {
+  margin-bottom: 1%;
 }
-.reservation {
-  background-color: white;
+.promo-cities .caption span {
+  font-weight: 800;
+  float: right;
+}
+.promo-cities .img-thumbnail {
+  height: 137px;
+  padding: 0;
+}
+
+.promo-cities .world {
+  padding: 0;
+  margin: 0;
+}
+
+.promo-cities .world .img-thumbnail{
+  width: 100%
+}
+
+.promo-cities .world .row figure  {
+  padding: 0;
+  margin: 0;
+}
+
+figcaption {
+  text-align: justify;
+  color: white;
+  display: block;
+  float: left;
+  position: absolute;
+  top: 0;
+  -moz-transform: matrix( 0.99999993847263,0,0,0.99999804795169,0,0);
+  -webkit-transform: matrix( 0.99999993847263,0,0,0.99999804795169,0,0);
+  -ms-transform: matrix( 0.99999993847263,0,0,0.99999804795169,0,0);
 }
