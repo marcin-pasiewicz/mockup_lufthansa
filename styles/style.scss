@@ -21,6 +21,7 @@ $big-btn-bg-color: #fff;
 $bg-img: url("../img/plane_jumbotron.png");
 $btn-text-color: #00235F;
 $nav-bar-bg-color: #F9BA00;
+$sml-figcaption-bg-color: #6dcff6;
 
 .plane {
   background-image: $bg-img;
@@ -79,6 +80,8 @@ $nav-bar-bg-color: #F9BA00;
 .promo-cities .img-thumbnail {
   height: 137px;
   padding: 0;
+  border-radius: 0;
+  width: 100%;
 }
 
 .promo-cities .world {
@@ -86,8 +89,16 @@ $nav-bar-bg-color: #F9BA00;
   margin: 0;
 }
 
-.promo-cities .world .img-thumbnail{
-  width: 100%
+.promo-cities .world .img-thumbnail, figure.col-lg-12.col-md-3.col-sm-4.col-xs-6, figure.col-lg-2.col-md-3.col-sm-4.col-xs-6, figure.col-lg-6.col-md-3.col-sm-4.col-xs-6 {
+  height: 288px;
+  background-color: #fff;
+  border: 0;
+}
+figure.col-lg-2.col-md-3.col-sm-4.col-xs-6, figure.col-lg-6.col-md-3.col-sm-4.col-xs-6 {
+  background-color: $sml-figcaption-bg-color;
+}
+.responsive img-thumbnail{
+  width: 100%;
 }
 
 .promo-cities .world .row figure  {
@@ -105,4 +116,10 @@ figcaption {
   -moz-transform: matrix( 0.99999993847263,0,0,0.99999804795169,0,0);
   -webkit-transform: matrix( 0.99999993847263,0,0,0.99999804795169,0,0);
   -ms-transform: matrix( 0.99999993847263,0,0,0.99999804795169,0,0);
+}
+figcaption.application {
+  color: $sml-figcaption-bg-color;
+}
+img.img-responsive.img-thumbnail.dubai {
+  height: 578px;
 }
