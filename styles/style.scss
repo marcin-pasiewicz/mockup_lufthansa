@@ -15,7 +15,9 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: Lato, sans-serif;
 }
+
 $font-stac: lato, sans-serif;
 $big-btn-bg-color: #fff;
 $bg-img: url("../img/plane_jumbotron.png");
@@ -73,6 +75,7 @@ $bg-img-footer: url("../img/background_footer.png");
 
 .promo-cities .container h2 {
   margin-bottom: 1%;
+  margin-top: 3%;
 }
 .promo-cities .caption span {
   font-weight: 800;
@@ -102,6 +105,7 @@ section.promo-cities.world {
 }
 figure.col-lg-2.col-md-3.col-sm-4.col-xs-6, figure.col-lg-6.col-md-3.col-sm-4.col-xs-6 {
   background-color: $sml-figcaption-bg-color;
+
 }
 .responsive img-thumbnail{
   width: 100%;
@@ -126,20 +130,45 @@ figcaption {
 figcaption.application {
   color: $sml-figcaption-bg-color;
 }
-img.img-responsive.img-thumbnail.dubai {
-  height: 578px;
+img.img-responsive.img-thumbnail.dubai, figure.col-lg-6.col-md-3.col-sm-4.col-xs-6.dubai {
+  height: 576px;
 }
-.clear {
-  clear: both;
+
+figcaption > h3, p {
+  margin: 5px;
 }
 //footer
 
-
-div.container-fluid footer{
+footer{
+  margin-top: 50px;
   background-image: $bg-img-footer;
   background-repeat: no-repeat;
   background-position: center top;
   z-index: -1;
-  margin: auto;
+  margin-left: auto;
   max-width: 1440px;
+  background-color: rgb(40, 68, 117); /* The color you want the icon to change to */
+  background-blend-mode: multiply;
+
+}
+
+.footer > img  {
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
+
+.links > h4 {
+  margin-top: 35px;
+  margin-bottom: 45px;
+  color: $nav-bar-bg-color;
+}
+
+.links > a {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.links > a:hover {
+  color: #777;
+  text-decoration: none;
 }
